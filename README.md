@@ -32,8 +32,8 @@
 
   ### Schema of the electronics structure
 
-  [Put the schema of the electronics structure here]
-  [Put the Legend here]
+
+![schema](https://github.com/Amael7/ESP32-C3_-_RFID/assets/85516178/681ac28a-c7c9-42f4-8fdd-973fa4c60d09)
 
 
   ### Documentation of the connections between the differents electronics
@@ -53,7 +53,30 @@
 
   ### Set the MongoDB
     ##### Step 1
-    [Put all the step here]
+    Download MongoDB (Compass) -> https://www.mongodb.com/try/download/compass
+
+    ##### Step 2
+    Set Database and configure Network Access 
+
+    ##### Step 3
+    Get the connexion link to use Database in Python
+    
 
   ### Set the Python code
-    [Put all the step here like how to connect, how to check etc etc]
+    ##### Step 1
+    Download Python (3.12.X)
+
+    ##### Step 2
+    import mongodb (pymongo)
+
+    ##### Step 3
+    Set the MongoDB (Client) -> client = MongoClient('mongodb+srv://USER:<PASSWORD>@SERVER.mongodb.net/')
+
+    ##### Step 4
+    Get database -> db = client['DATABASE']
+
+    ##### Step 5 
+    Create socket and connect it to the arduino
+
+
+
